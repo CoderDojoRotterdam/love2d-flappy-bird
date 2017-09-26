@@ -10,8 +10,8 @@ function love.load()
     botsGeluid = love.audio.newSource("geluiden/boing.ogg", "static")
 
     -- de positie in het begin
-    vogelPositieX = love.graphics.getWidth()/3  - vogelPlaatje:getWidth()/2
-    vogelPositieY = love.graphics.getHeight()/3 - vogelPlaatje:getHeight()/2
+    vogelPositieX = 200
+    vogelPositieY = 100
 
     -- de snelheid in het begin
     snelheidY = 0
